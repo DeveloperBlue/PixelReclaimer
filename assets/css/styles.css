@@ -116,3 +116,9 @@ body {
   border-radius: 0px;
 }
 
+.color-selector {
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+}
+
