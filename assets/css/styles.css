@@ -86,7 +86,8 @@ body {
   height: 50px;
   width: 50px;
   background-color: rgba(0,0,0,0);
-  border: 1px solid #555;
+  border-left: 1px solid #555;
+  border-bottom: 1px solid #555;
 }
 
 .screen.screen-2 {
