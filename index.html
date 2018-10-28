@@ -15,7 +15,7 @@
 <script type="text/javascript" src="quagga.min.js"></script>
 </head>
 
-<body>
+<body><br>
 <style>
 	#interactive.viewport {position: relative; width: 100%; height: auto; overflow: hidden; text-align: center;}
 	#interactive.viewport > canvas, #interactive.viewport > video {max-width: 100%;width: 100%;}
@@ -131,7 +131,8 @@ $(function() {
 			<span class="input-group-btn"> 
 				<button class="btn btn-default" type="button" data-toggle="modal" data-target="#livestream_scanner">
 					<i class="fa fa-barcode"></i>
-				</button> 
+				</button>
+				<button class="btn btn-primary btn-submit-barcode" type="button"> Submit Barcode</button>
 			</span>
 		</div><!-- /input-group -->
 	</div><!-- /.col-lg-6 -->
@@ -225,13 +226,14 @@ $(function() {
             </div>
             <div class="player-bar">
                 <div class="pixel-block"></div>
-                <p class="pixel-p">12px</p>
+                <p class="pixel-p">0px</p>
             </div><button class="btn btn-primary barcode-btn" type="button" data-toggle="modal" data-target="#livestream_scanner"><i class="fas fa-barcode"></i></button>
             <div class="zoom-buttons"><button class="btn btn-primary zoom-btn" type="button"><i class="fa fa-plus"></i></button><button class="btn btn-primary zoom-btn" type="button"><i class="fa fa-minus"></i></button></div>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
     <script src="assets/js/quagga.min.js.js"></script>
 </body>
 
